@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\scala\practical11\src\main\scala\MyApp.scala:41:34: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m       |    enabled-transports = ["akka.remote.netty.tcp"][0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\scala\practical11\src\main\scala\MyApp.scala:42:18: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m       |    netty.tcp {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m

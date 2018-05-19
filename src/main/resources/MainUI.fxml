@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<!--<?import javafx.scene.shape.Circle?>-->
+
+<BorderPane id="border_c" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <center>
+      <!--<MenuBar BorderPane.alignment="CENTER">-->
+        <!--<menus>-->
+          <!--<Menu mnemonicParsing="false" text="File">-->
+            <!--<items>-->
+              <!--<MenuItem mnemonicParsing="false" text="Close" />-->
+            <!--</items>-->
+          <!--</Menu>-->
+          <!--<Menu mnemonicParsing="false" text="Edit">-->
+            <!--<items>-->
+              <!--<MenuItem mnemonicParsing="false" text="Delete" />-->
+            <!--</items>-->
+          <!--</Menu>-->
+          <!--<Menu mnemonicParsing="false" text="Help">-->
+            <!--<items>-->
+              <!--<MenuItem mnemonicParsing="false" text="About" />-->
+            <!--</items>-->
+          <!--</Menu>-->
+        <!--</menus>-->
+         <!--<padding>-->
+            <!--<Insets top="10.0" />-->
+         <!--</padding>-->
+      <!--</MenuBar>-->
+   </center>
+   <center>
+      <AnchorPane id="hello" prefHeight="411.0" prefWidth="581.0" stylesheets="@ui.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="494.0" layoutY="258.0" prefWidth="50.0" text="Server : " textFill="#b5abab" />
+            <TextField id="servert" fx:id="server" disable="true" layoutX="544.0" layoutY="254.0" prefHeight="25.0" prefWidth="61.0" text="127.0.0.1" />
+            <TextField id="portt" fx:id="port" layoutX="544.0" layoutY="294.0" prefHeight="25.0" prefWidth="61.0" />
+            <Label layoutX="505.0" layoutY="298.0" prefWidth="50.0" text="Port : " textFill="#b5abab" />
+            <Label fx:id="status" layoutX="376.0" layoutY="14.0" text="Status" textFill="#cedaae" />
+            <Button layoutX="491.0" layoutY="380.0" mnemonicParsing="false" onAction="#handleJoin" prefHeight="25.0" prefWidth="50.0" text="Join" />
+            <ListView id="peerlistt" fx:id="peerList" layoutX="3.0" layoutY="4.0" prefHeight="402.0" prefWidth="163.0" />
+            <TextArea id="txaMessaget" fx:id="txaMessage" layoutX="176.0" layoutY="4.0" prefHeight="228.0" prefWidth="428.0" />
+            <TextField id="txtMessaget" fx:id="txtMessage" layoutX="175.0" layoutY="243.0" prefHeight="164.0" prefWidth="288.0" />
+            <Button layoutX="409.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleSend" prefHeight="25.0" prefWidth="50.0" text="Send" />
+            <Label fx:id="lblMessageStatus" layoutX="182.0" layoutY="202.0" prefHeight="17.0" prefWidth="298.0" textFill="#b5abab" />
+            <TextField id="namet" fx:id="txtName" layoutX="544.0" layoutY="332.0" prefHeight="25.0" prefWidth="61.0" />
+            <Label layoutX="495.0" layoutY="336.0" text="Name :" textFill="#b5abab" />
+            <Button layoutX="533.0" layoutY="206.0" mnemonicParsing="false" onAction="#handleClear" text="Clear chat" />
+            <!--<Button layoutX="111.0" layoutY="21.0" mnemonicParsing="false" onAction="#handleAdd" text="Add user" />-->
+            <Button layoutX="557.0" layoutY="380.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="25.0" prefWidth="50.0" text="Close" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
+
+
+
+</BorderPane>

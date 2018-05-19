@@ -1,0 +1,234 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{Actor, ActorRef, ActorSelection}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.pattern.ask[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:7:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.util.Timeout[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:8:12: object github is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.github.nscala_time.time.RichInt[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:9:12: object joda is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.joda.time.DateTime[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:10:22: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass Client extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:13:27: not found: type ActorSelection[0m
+[0m[[0m[31merror[0m] [0m[0m  var serverActor: Option[ActorSelection] = None[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:15:33: not found: type DateTime[0m
+[0m[[0m[31merror[0m] [0m[0m  var lastReceiveTyping: Option[DateTime] = None[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:17:5: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m    context.system.eventStream.subscribe(self, classOf[akka.remote.DisassociatedEvent])[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:17:42: not found: value self[0m
+[0m[[0m[31merror[0m] [0m[0m    context.system.eventStream.subscribe(self, classOf[akka.remote.DisassociatedEvent])[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:17:56: not found: value akka[0m
+[0m[[0m[31merror[0m] [0m[0m    context.system.eventStream.subscribe(self, classOf[akka.remote.DisassociatedEvent])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:22:25: not found: type Receive[0m
+[0m[[0m[31merror[0m] [0m[0m  override def receive: Receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:11:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:6:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:17:22: not found: type JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject MyApp extends JFXApp {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{ActorSystem, Props}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:66:16: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  val system = ActorSystem("ball", myConf)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:4:12: object typesafe is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:37:22: not found: value ConfigFactory[0m
+[0m[[0m[31merror[0m] [0m[0m  val overrideConf = ConfigFactory.parseString([0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:14:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.stage.{Screen, StageStyle}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:13:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.control.TextField[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:10:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{FXMLLoader, NoDependencyResolver}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:9:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.image.{Image, ImageView}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:8:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.Scene[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:7:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp.PrimaryStage[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:5:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.image.Image[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:2:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.Platform[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:29:7: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m      context.become(joined)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:35:15: not found: type Receive[0m
+[0m[[0m[31merror[0m] [0m[0m  def joined: Receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:38:7: not found: value sender[0m
+[0m[[0m[31merror[0m] [0m[0m      sender() ! "OK"[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\User.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\User.scala:3:37: not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0mcase class User (name: String, ref: ActorRef ) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Client.scala:66:32: not found: value DateTime[0m
+[0m[[0m[31merror[0m] [0m[0m      lastReceiveTyping = Some(DateTime.now)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{Actor, ActorRef}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:3:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.Platform[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:5:23: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass Display extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:8:25: not found: type Receive[0m
+[0m[[0m[31merror[0m] [0m[0m  override def receive: Receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:10:7: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m      Platform.runLater {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:75:15: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  var loader: FXMLLoader = new FXMLLoader(null, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:79:49: type Controller is not a member of MainController[0m
+[0m[[0m[31merror[0m] [0m[0m  var ctl = loader.getController[MainController#Controller]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:26:7: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m      Platform.runLater {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:30:7: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m      Platform.runLater {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:34:7: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m      Platform.runLater {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\Display.scala:38:7: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m      Platform.runLater {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:2:8: value stage is not a member of object MyApp[0m
+[0m[[0m[31merror[0m] [0m[0mimport MyApp.{getClass, main, stage, system}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:5:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:6:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp.PrimaryStage[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:7:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.collections.ObservableBuffer[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:8:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.event.ActionEvent[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:9:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.Platform[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:10:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.control._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:11:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.Scene[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:12:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.{JFXApp, Platform}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:13:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.image.Image[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:14:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{FXMLLoader, NoDependencyResolver}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:16:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.macros.sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:17:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:18:2: not found: type sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:21:41: not found: type TextField[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val server: TextField,[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:22:39: not found: type TextField[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val port: TextField,[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:23:41: not found: type Label[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val status: Label,[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:25:43: not found: type ListView[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val peerList: ListView[User],[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:26:45: not found: type TextField[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val txtMessage: TextField,[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:27:45: not found: type TextArea[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val txaMessage: TextArea,[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:28:51: not found: type Label[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val lblMessageStatus: Label,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:29:42: not found: type TextField[0m
+[0m[[0m[31merror[0m] [0m[0m                    private val txtName: TextField[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:35:26: not found: type ActionEvent[0m
+[0m[[0m[31merror[0m] [0m[0m  def handleJoin(action: ActionEvent) ={[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:56:31: not found: type ActionEvent[0m
+[0m[[0m[31merror[0m] [0m[0m  def handleSend(actionEvent: ActionEvent) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:57:12: not found: value scalafx[0m
+[0m[[0m[31merror[0m] [0m[0m    import scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:63:32: not found: type ActionEvent[0m
+[0m[[0m[31merror[0m] [0m[0m  def handleClear(actionEvent: ActionEvent) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:64:12: not found: value scalafx[0m
+[0m[[0m[31merror[0m] [0m[0m    import scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:69:26: not found: type ActionEvent[0m
+[0m[[0m[31merror[0m] [0m[0m  def handleClose(event: ActionEvent) {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MainController.scala:70:5: not found: value Platform[0m
+[0m[[0m[31merror[0m] [0m[0m    Platform.exit()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:75:32: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  var loader: FXMLLoader = new FXMLLoader(null, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:75:49: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m  var loader: FXMLLoader = new FXMLLoader(null, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:81:3: not found: value stage[0m
+[0m[[0m[31merror[0m] [0m[0m  stage = new PrimaryStage(){[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\JOSH\Desktop\ChinChatMe\src\main\scala\MyApp.scala:91:3: not found: value stage[0m
+[0m[[0m[31merror[0m] [0m[0m  stage.onCloseRequest = handle {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
